@@ -1,0 +1,86 @@
+
+
+.login{
+    background-color:rgb(239, 170, 81) ;
+    color:black;
+    border: none;
+    padding-left :20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: top;
+  }
+
+  .login:hover {
+   opacity: 0.5;
+   background-color: antiquewhite;
+  }
+
+  .same{
+    background-color:rgb(15, 23, 26) ;
+    color:rgb(255, 255, 255);
+    border: none;
+    padding-left :12px;
+    padding-right: 12px;
+    border-radius: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    display:inline-block;
+    line-height: 24px;
+    justify-content: center;
+  }
+
+  .same1{
+    background-color:rgb(19, 30, 35) ;
+    color:rgb(255, 255, 255);
+    border: none;
+    padding-left :16px;
+    padding-right: 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 48px;
+    line-height: 24px;
+    margin-top: 8px;
+    justify-content: center;
+  }
+
+
+
+  .same:hover{
+    color: rgb(132, 191, 236);
+    background-color: rgb(28, 36, 51);
+   
+  }
+
+  .same1:hover{
+    color: rgb(132, 191, 236);
+    background-color: rgb(28, 36, 51);
+   
+  }
+
+  .title{
+    font-family:Skranji;
+    color: rgb(239, 246, 139);
+    font-size: 50px ;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left: 55px;
+  
+   
+  }
+
+  

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="website.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  
+  <style>
+    .justnav{
+      display: inline-block;
+      border-radius: 40%;
+      vertical-align: top;
+    }
+
+    body {background-color:rgb(19, 30, 35);}
+
+    .vhack{
+      width:32px;
+      display: inline-block;
+      vertical-align: top;
+      cursor: pointer;
+      align-items: center;
+      vertical-align: top;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      margin-right: 5px;
+      margin-left: 9px;
+    }
+
+    .email{
+      padding-left: 12px;
+      padding-right: 12px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display:inline-block;
+    
+    }
+
+    .titlenextvhack{
+      font-size: 20px;
+      font-family: Skranji;
+      color: rgb(255, 255, 255);
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 17px;
+      margin-bottom: 15px;
+      cursor: pointer;
+      align-items: center;
+      vertical-align: top;
+      margin-right: 340px;
+      
+    }
+
+    .box{
+      width: 500px;
+      vertical-align: top;
+     text-align: center;
+     display: flex;
+     
+    }
+
+    
+    .image{
+    max-width: 176px;
+    max-height: 250px;
+    
+   
+    
+    }
+
+    .image:hover{
+      
+      transition: all 0.2s;
+      transform: scale(1.1);
+
+    }
+
+      .name{
+       font-size: 15px;
+       display: block;
+        color: aliceblue;
+        text-align: center;
+        font-family: "Proza Libre", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        text:center;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        
+      }
+
+      .dept{
+        font-size: 15px;
+        color: aliceblue;
+        display: block;
+        text-align: center;
+        font-family: "Proza Libre", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .position{
+        font-size: 15px;
+        color: aliceblue;
+        display: block;
+        text-align: center;
+        font-family: "Proza Libre", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+      }
+
+
+    .navbar{
+      background-color: rgb(15, 23, 26);
+      padding-left: 5px;
+      padding-right:5px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      vertical-align: top;
+      display: inline-block;
+      border-radius: 8px;
+      margin-right: 5px;
+      
+      
+    }
+
+ 
+
+    
+    
+          
+  </style>
+
+  </head>
+  
+
+  <body>
+    <title>About Us | Varsity Hackaton 2024</title>
+    
+    <img class="vhack" src="people/VHack_Logo.png">
+    <p class="titlenextvhack">V HACK</p>
+
+   
+    <nav class="navbar">
+    <div style="
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 6px;
+    column-gap: 15px;
+    padding-right: 5px;
+    flex:1;
+
+    ">
+
+          <button class="same">Home</button>
+          <button class="same">Tentative</button>
+          <button class="same">Speakers</button>
+          <button class="same">Judges</button>
+          <button class="same">Mentors</button>
+          <button class="same">Partners</button>
+          <button class="same">FAQs</button>
+          <button class="same">Rules</button>
+          <button class="same">Organising Team</button>
+          
+    </div>
+    </nav>
+    <button class="login">Log in</button>
+  
+  
+
+<div style="display: grid ; grid-template-columns: 1fr 1fr; ">
+
+  <div style="display: flex; flex-direction: column; ">
+    <p class="title">Meet the team.</p>
+  </div>
+
+<div style="
+display: flex;
+flex-direction: column;
+">
+<div><button class="same1">All</button></div>
+<div><button class="same1">Top Committee</button></div>
+<div><button class="same1">Programme</button></div>
+<div><button class="same1">Public Relation and Documentation</button></div>
+<div><button class="same1">Publicity and Marketing</button></div>
+<div><button class="same1">Sponsorship</button></div>
+<div><button class="same1">Logistics</button></div>
+<div><button class="same1">Technical</button></div>
+<div><button class="same1">Design & Multimedia</button></div>
+</div>
+
+
+ <div style="
+ display: grid;
+ grid-template-columns:1fr 1fr 1fr;
+column-gap: 20px;
+
+ ">
+  <div style="box">
+    <img class="image" src="people/qianyun.webp">
+      <p class="name">Lim Qian Yun</p>
+      <p class="dept">Top Committee</p>
+      <p class="position">Project Director</p>
+    </div>
+    
+ <div style="box">
+    <img class="image" src="people/weize.webp">
+    <p class="name">Wong Wei Ze</p>
+    <p class="dept">Top Committee</p>
+    <p class="position">Vice Project Director</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/lingges.webp">
+    <p class="name">Lingges A/L Muniandy</p>
+    <p class="dept">Top Committee</p>
+    <p class="position">Vice Project Director</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/maisarah.webp">
+    <p class="name">Siti Maisarah Binti Khairul Anwar</p>
+    <p class="dept">Top Committee</p>
+    <p class="position">Secretary</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/junliang.webp">
+    <p class="name">Chew Jun Liang</p>
+    <p class="dept">Top Committee</p>
+    <p class="position">Treasurer</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/weiyi.webp">
+    <p class="name">Tan Wei Yi</p>
+    <p class="dept">Programme</p>
+    <p class="position">Head Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/qiujun.webp">
+    <p class="name">Ng Qiu Jun</p>
+    <p class="dept">Programme</p>
+    <p class="position">Vice Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/padma.webp">
+    <p class="name">Padma Pireeyaa A/P S Soundra Rajan</p>
+    <p class="dept">Programme</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/asreena.webp">
+    <p class="name">Asreena Chulaphong A/P Akhom</p>
+    <p class="dept">Programme</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/reeyeankha.webp">
+    <p class="name">Reeyeankha</p>
+    <p class="dept">Programme</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/ammar.webp">
+    <p class="name">Muhammad Ammar Danial Bin Abdullah</p>
+    <p class="dept">Programme</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/ashman.webp">
+    <p class="name">Ashman Bin Mohd Fauzi</p>
+    <p class="dept">Programme</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+
+  <div style="box">
+    <img class="image" src="people/asyraf.webp">
+    <p class="name">Ahmad Asyraf Bin Ahmad Johari</p>
+    <p class="dept">Programme</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/shereen.webp">
+    <p class="name">Shereen Ilyza Binti Sheik Mujibu Rahman</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Head Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/kechee.webp">
+    <p class="name">Ching Ke Chee</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/zheyin.webp">
+    <p class="name">Law Zhe Yin</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/faiq.webp">
+    <p class="name">Muhammad Faiq Fadhlullah</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/thanesh.webp">
+    <p class="name">Thaneshwaran A/L Sarsidharan</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/nadia.webp">
+    <p class="name">Nur Nadia Nabila Binti Mohamad Fauzi</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Coordinator</p>
+  </div>
+  <div style="box">
+    <img class="image" src="people/airiel.webp">
+    <p class="name">Airiel Hazim Bin Redzuan Ng</p>
+    <p class="dept">Public Relations and</p>
+    <p class="dept">Documentation</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/aimi.webp">
+    <p class="name">Khairin Aimi Binti Mohd Ashri</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Head Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/danial.webp">
+    <p class="name">Danial Hakim Bin Kamal Azwa</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/zhisyeh.webp">
+    <p class="name">Lee Zhi Syeh</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/raziqin.webp">
+    <p class="name">Raziqin Husna Binti Abdul Wahid</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/zafry.webp">
+    <p class="name">Adam Zafry Bin Zaharin</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/piekhui.webp">
+    <p class="name">Chung Piek Hui</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/arwen.webp">
+    <p class="name">Arwen Laung Ai Wen</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/shuying.webp">
+    <p class="name">Goh Shu Ying</p>
+    <p class="dept">Publicity and Marketing</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+
+
+  <div style="box">
+    <img class="image" src="people/aqif.webp">
+    <p class="name">Muhammad Aqif Wafiy Bin Mohd Farid</p>
+    <p class="dept">Sponsorship</p>
+    <p class="position">Head Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/yuyuan.webp">
+    <p class="name">Chin Yu Yuan</p>
+    <p class="dept">Sponsorship</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/mervyn.webp">
+    <p class="name">Mervyn Chew Yew Zhang</p>
+    <p class="dept">Sponsorship</p>
+    <p class="position">Vice Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image"  src="people/sabrina.webp">
+    <p class="name">Sabrina Binti Sofian</p>
+    <p class="dept">Sponsorship</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/haojing.webp">
+    <p class="name">Yeoh Hao Jing</p>
+    <p class="dept">Sponsorship</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/shirley.webp">
+    <p class="name">Shirley Binti Osman</p>
+    <p class="dept">Sponsorship</p>
+    <p class="position">Coordinator</p>
+  </div>
+  <div style="box">
+    <img class="image" src="people/hemwaren.webp">
+    <p class="name">Hemwaren A/L Kunalan</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Head Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/juncheng.webp">
+    <p class="name">Tan Jun Cheng</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Vice Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/seongkin.webp">
+    <p class="name">Ooi Seong Kin</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/shuyi.webp">
+    <p class="name">Yeoh Shu Yi</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/wanmuhammad.webp">
+    <p class="name">Wan Muhammad Adam Bin Wan Mohd Fauzi</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/yinthong.webp">
+    <p class="name">Ng Yin Thong</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/tsehan.webp">
+    <p class="name">Tan Tse Han</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/shivabala.webp">
+    <p class="name">Shivabala A/L Ganeish</p>
+    <p class="dept">Logistics</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/chihao.webp">
+    <p class="name">Loo Chi Hao</p>
+    <p class="dept">Technical</p>
+    <p class="position">Head Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/chunkeat.webp">
+    <p class="name">Koay Chun Keat</p>
+    <p class="dept">Technical</p>
+    <p class="position">Vice Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/wenhao.webp">
+    <p class="name">Lim Wen Hao</p>
+    <p class="dept">Technical</p>
+    <p class="position">Vice Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/choyyein.webp">
+    <p class="name">Liew Choy Yein</p>
+    <p class="dept">Technical</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/cheahao.webp">
+    <p class="name">Cheng Chea Hao</p>
+    <p class="dept">Technical</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/miinning.webp">
+    <p class="name">Lim Miin Ning</p>
+    <p class="dept">Technical</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/tianyu.webp">
+    <p class="name">Har Tien Yu</p>
+    <p class="dept">Technical</p>
+    <p class="position">Coordinator</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/andyclos.webp">
+    <p class="name">Andyclos A/L Boon Mee</p>
+    <p class="dept">Technical</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/bern.webp">
+    <p class="name">Bernadatte Lee Pei Chen</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Head Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/iuwan.webp">
+    <p class="name">Khoo Iu Wan</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Vice Executive</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/hazim.webp">
+    <p class="name">Hazim Muhsin Bin Munir</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Vice Executive</p>
+  </div>
+  
+  <div style="box">
+    <img class="image" src="people/najihah.webp">
+    <p class="name">Najihah Hanani Binti Ahmad Farid</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/sergio.webp">
+    <p class="name">Sergio Law Zhe Xian</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/darren.webp">
+    <p class="name">Darren Fu Hon Meng</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/gordon.webp">
+    <p class="name">Gordon Chai Ming Xun</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/hadrie.webp">
+    <p class="name">Hadrie Hakimi Bin Nazarudin</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/yihan.webp">
+    <p class="name">Loh Yi Han</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+  <div style="box">
+    <img class="image" src="people/meizhen.webp">
+    <p class="name">Wong Mei Zhen</p>
+    <p class="dept">Design & Multimedia</p>
+    <p class="position">Coordinator</p>
+  </div>
+
+ </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+  
+  
+  
+
+</html>
+
